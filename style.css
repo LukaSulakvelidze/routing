@@ -1,0 +1,169 @@
+/* საერთო*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-size: large;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+/* home */
+.home {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeheader {
+  background-color: aqua;
+  color: blue;
+}
+
+.hometouch {
+  background-color: red;
+}
+
+.homelist {
+  background-color: brown;
+}
+
+.homelist-items {
+  color: antiquewhite;
+}
+
+.home-paragraph {
+  font-size: 25px;
+  color: cadetblue;
+}
+
+/* about */
+.about-header {
+  font-size: 30px;
+  font-family: cursive;
+  color: blueviolet;
+  background-color: black;
+}
+
+.aboutlist {
+  background-color: black;
+}
+
+.aboutlist-items {
+  font-size: 25px;
+  font-family: cursive;
+  color: brown;
+}
+
+.about-paragraph {
+  font-size: larger;
+  color: rgb(6, 169, 169);
+  background-color: rgb(123, 40, 10);
+}
+
+/* skills */
+
+.skills {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-header {
+  font-size: 45px;
+  color: deeppink;
+  background-color: yellow;
+}
+
+.skillslist {
+  background-color: tomato;
+}
+
+.skillslist-items {
+  font-size: 20px;
+  color: chartreuse
+}
+
+.skills-paragraph {
+  font-size: x-large;
+  color: blue;
+  background-color: salmon;
+}
+
+/* projects */
+
+.projects {
+  font-style: initial;
+  font-family: sans-serif;
+}
+
+.projects-header {
+  font-size: 40px;
+  color: brown;
+}
+
+.projectslist {
+  background-color: blueviolet;
+}
+
+.projectslist-items {
+  font-size: 25px;
+  color: blanchedalmond;
+}
+
+/* contacts */
+
+.contact {
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-header {
+  font-size: 35px;
+  color: brown;
+  background-color: black;
+}
+
+.contactlist {
+  background-color: blue;
+}
+
+.contactlist-items {
+  font-size: 28px;
+  color: beige;
+}
+
+/* profile */
+
+.profiles {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.profiles-header {
+  font-size: 30px;
+  color: crimson;
+  background-color: turquoise
+}
+
+.profileslist {
+  background-color: brown;
+}
+
+.profileslist-items {
+  font-size: 25px;
+  color: limegreen;
+}
+
+img {
+  width: 50%;
+}
